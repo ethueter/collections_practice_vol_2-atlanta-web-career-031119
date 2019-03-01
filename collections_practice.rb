@@ -30,7 +30,7 @@ def first_wa(array)
  end
   new_array.each do |thing|
     if thing.include?("wa")
-      new_array_2.push()   
+      answer = thing   
     end 
 end 
 answer
