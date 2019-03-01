@@ -22,7 +22,7 @@ end
 
 def first_wa(array)
   new_array = []
-  new_array_2 = []
+  answer = nil 
   array.each do |item|
     if item.is_a?(String)
     new_array.push("#{item}")
