@@ -22,7 +22,7 @@ end
 
 def first_wa(array)
   new_array = []
-  answer = test 
+  new_array_2 = []
   array.each do |item|
     if item.is_a?(String)
     new_array.push("#{item}")
@@ -30,7 +30,7 @@ def first_wa(array)
  end
   new_array.each do |thing|
     if thing.include?("wa")
-      answer = thing   
+      new_array_2.push()   
     end 
 end 
 answer
