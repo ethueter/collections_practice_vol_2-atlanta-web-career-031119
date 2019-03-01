@@ -30,7 +30,7 @@ def first_wa(array)
  end
   new_array.find {|thing| thing.include?("wa")}
 end 
-end 
+ 
  
 
 
