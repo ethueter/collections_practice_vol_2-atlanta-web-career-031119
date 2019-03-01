@@ -22,7 +22,6 @@ end
 
 def first_wa(array)
   new_array = []
-  answer = nil 
   array.each do |item|
     if item.is_a?(String)
     new_array.push("#{item}")
@@ -31,7 +30,15 @@ def first_wa(array)
   new_array.find {|thing| thing.include?("wa")}
 end 
  
- 
+ def remove_non_strings(array)
+    new_array = []
+  array.each do |item|
+    if item.is_a?(String)
+    new_array.push("#{item}")
+  end
+ end
+ new_array
+ end
 
 
 
