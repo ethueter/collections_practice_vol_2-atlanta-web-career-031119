@@ -40,5 +40,7 @@ end
  new_array
  end
 
-
+def count_elements(array)
+  
+end
 
