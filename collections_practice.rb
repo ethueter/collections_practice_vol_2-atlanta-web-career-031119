@@ -28,17 +28,10 @@ def first_wa(array)
     new_array.push("#{item}")
   end
  end
-  new_array.find {|thing| 
+  new_array.find {|thing| thing.include?("wa")}
 end 
 end 
  
 
-end
-  new_array.each do |thing|
-    if thing.include?("wa")
-      answer = thing   
-    end 
-end 
-answer
-end 
+
 
